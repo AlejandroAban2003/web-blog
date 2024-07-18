@@ -93,6 +93,7 @@ export const NavStyled = styled.div`
   align-items: center;
   background-color: #000;
   height: 50px;
+  text-decoration:none;
   width: 100%;
   @media (max-width: 740px) {
     flex-direction: column;

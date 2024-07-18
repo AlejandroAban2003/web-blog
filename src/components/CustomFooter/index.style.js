@@ -4,9 +4,10 @@ import styled from "@emotion/styled";
 export const FooterContainer = styled.footer`
   width: 100%;
   height: auto;
-  background-color: #ffe5c5;
+  background-color: #333;
   display: flex;
   flex-direction: column;
+  color:#fff;
 `;
 
 export const Content = styled.div`
@@ -17,13 +18,13 @@ export const Content = styled.div`
   justify-content: start;
   flex-direction: column;
   & h1 {
-    color: #261704;
+    color: #fff;
     font-family: Poppins;
     font-size: 24px;
     font-weight: 600;
   }
   & span {
-    color: #2a2a2a;
+    color: #fff;
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
@@ -89,7 +90,7 @@ export const FooterContentRoute = styled.div`
 
 export const LineStyled = styled.hr`
   width: 95%;
-  border-top: 1px solid #ffe5c5;
+  border-top: 1px solid #000;
 `;
 
 export const FooterContentTerms = styled(FooterContentRoute)`

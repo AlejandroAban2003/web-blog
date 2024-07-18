@@ -3,6 +3,9 @@ import { Provider } from "react-redux";
 import Layout from "@/layout";
 import store from "@/store/store";
 import "@/styles/globals.css";
+import 'leaflet/dist/leaflet.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import { AuthProvider } from "@/context/AuthContext";
 
 function MyApp({ Component, pageProps }) {

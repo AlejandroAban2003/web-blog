@@ -8,14 +8,14 @@ export const ModalContent = styled.div`
   left: 50%;
   width: 600px;
   transform: translate(-50%, -50%);
-  background-color: #f4f4f4;
+  background-color: #333;
   box-shadow: 24;
   padding: 24px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   & h1 {
-    color: #2a2a2a;
+    color: #f4f4f4;
     font-size: 18px;
     font-weight: 500;
   }

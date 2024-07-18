@@ -135,7 +135,7 @@ const Login = () => {
           <CustomButton buttonText="Entrar" fullWidth type="submit" />
           <TextBelowButton>
             <span>¿No tienes cuenta?</span>
-            <RegisterLink onClick={() => router.push("/register")}>
+            <RegisterLink onClick={() => route.push("/register")}>
               Crea una aquí
             </RegisterLink>
           </TextBelowButton>

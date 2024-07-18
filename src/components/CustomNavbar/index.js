@@ -70,7 +70,7 @@ const CustomNavbar = () => {
           </Menu>
           <ul className={menuOpen ? "open" : ""}>
             <li>
-              <Link href="/" passHref>
+              <Link href="/" passHref >
                 <TabStyled className={router.pathname === "/" ? "active" : ""}>
                   Home
                 </TabStyled>
@@ -80,6 +80,13 @@ const CustomNavbar = () => {
               <Link href="/blogs" passHref>
                 <TabStyled className={router.pathname === "/blogs" ? "active" : ""}>
                   Blogs
+                </TabStyled>
+              </Link>
+            </li>
+            <li>
+              <Link href="/evento" passHref>
+                <TabStyled className={router.pathname === "/evento" ? "active" : ""}>
+                  Eventos
                 </TabStyled>
               </Link>
             </li>
